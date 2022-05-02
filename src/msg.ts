@@ -1,0 +1,9 @@
+export const enum MSG_TO_SUPERVISOR {
+  GREET,
+  CREATE_ANOTHER_WORKER
+}
+
+export const enum MSG_FROM_SUPERVISOR {
+  WELCOME,
+  CREATED_WORKER
+}
